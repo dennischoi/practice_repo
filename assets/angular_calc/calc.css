@@ -10,5 +10,28 @@
   max-width: 800px;
 }
 
+#myCalculator main {
+  background-color: #444;
+
+}
+
+#myCalculator main section {
+  width: 25%;
+  float: left;
+  text-align: center;
+  padding-top: 6.875rem;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: center 0.3125rem;
+  background-size: 3.9375rem 6.25rem;
+
+}
+
+#myCalculator main::after {
+  content: '';
+  display: block;
+  clear: both;
+  
+}
 
 /* CSS rules go here */
