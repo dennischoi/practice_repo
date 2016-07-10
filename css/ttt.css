@@ -1,0 +1,30 @@
+td {
+  font-family: Baskerville, serif;
+  font-size: 9.375rem;
+  text-align: center;
+  border: 0.1875rem solid black;
+  width: 18.75rem;
+  height: 18.75rem;
+  cursor: crosshair;
+  background-color: #444;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#ttt-title {
+  text-align: center;
+}
+
+.player-option {
+  text-align: center;
+}
